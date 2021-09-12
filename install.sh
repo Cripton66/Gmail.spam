@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo -e "\e[1;33mInstalando repositorios necesaios!"
+echo -e "\e[1;33mInstalando repositorios!"
 sudo su
 apt install python3-pip
 pip install os
