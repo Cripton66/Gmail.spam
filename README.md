@@ -5,6 +5,8 @@ Gmail.spam es un script en python3 que envía correos electrónicos a cualquier 
 
 INSTALACIÓN
 
+PARA LINUX
+
 git clone https://github.com/Cripton66/Gmail.spam.git
 
 cd Gmail.spam
@@ -14,5 +16,18 @@ chmod +x gmail.py
 chmod +x install.sh
 
 ./install.sh
+
+python3 gmail.py
+
+
+
+TERMUX
+
+pkg install python 
+pkg install python3 
+pkg install git
+
+git clone https://github.com/Cripton66/Gmail.spam.git
+cd Gmail.spam
 
 python3 gmail.py
