@@ -60,4 +60,4 @@ while True:
     with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as server:
         server.login(c, p)
         server.sendmail(c, destinatario, mensaje)
-        print(rojo+"Correo enviado"+cierre + amarillo+":)" + cierre)
+        print(rojo+"Correo enviado"+cierre)
